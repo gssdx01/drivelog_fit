@@ -48,7 +48,7 @@ start_km = st.number_input('出発時距離を入力してください')
 back_km = st.number_input('帰社時距離を入力してください') 
 dist_km = st.number_input('今回走行距離を入力してください')  
 highway = st.selectbox('高速使用の有無を選択してください', ('あり', 'なし'))
-checkup = st.selectbox('点検結果を選択してください', ('異常あり', '異常無し'))
+checkup = st.selectbox('点検結果を選択してください', ('異常無し', '異常あり'))
 error = st.text_input('異常内容を入力してください')
 gas = st.selectbox('残燃料を選択してください', ('満タン', '3/4', '1/2', '1/4'))
 
